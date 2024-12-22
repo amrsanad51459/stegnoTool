@@ -4,8 +4,9 @@ from PIL import Image
 import os
 
 END_MARKER = "#####END#####"  # Marker to detect the end of the hidden message
-
-
+#############################################
+###############khaled changing###############
+#############################################
 # LSB Steganography
 def lsb_hide(image_path, message, output_path):
     """Hide the message using LSB in PNG images."""
