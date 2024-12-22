@@ -9,7 +9,7 @@ def comment_insert(html_content, secret_message):
     # Ensure no duplicate comments
     return html_content + f"\n<!-- {secret_message} -->"
 
-
+#khaled fadel comment
 def comment_extract(html_content):
     """Extract hidden message from an HTML comment."""
     comments = re.findall(r'<!--(.*?)-->', html_content, re.DOTALL)
